@@ -1,0 +1,48 @@
+@import "../app.component.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fonte-principal;
+}
+
+.container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 16px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 100;
+        background-color: $cor-principal;
+
+        .container h1 {
+            font-size: $grande;
+            color: $preto;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .menu-spacer {
+            flex: 1 1 auto;
+        }
+
+        button {
+            font-size: 16px;
+            color: $branco;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: $extra-grande;
+            transition: .3s;
+        }
+
+        button:hover {
+            color: $vinho-escuro;
+            background: $vinho-claro;
+        }
+    }
+

@@ -1,0 +1,31 @@
+// FONTES 
+  @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=Playfair+Display:ital,wght@1,500&display=swap');
+  $fonte-principal: Georgia, 'Times New Roman', Times, serif;
+  $fonte-secundaria: 'Open Sans', sans-serif;
+  $pequena: 14px;
+  $media: 16px;
+  $grande: 25px;
+  $extra-grande: 32px;
+
+  /* CORES */
+$cor-principal: #5b1f00;
+$cor-secundaria: #9a5833;
+$branco: #ffffff;
+$vinho-claro: #864332;
+$vinho-medio: #5c1e14;
+$vinho-escuro: #470a00;
+$preto: #000000;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    // especifica o comportamento de rolagem para uma caixa de scrolling,ou seja usado para suavizar a barra de rolagem
+    scroll-behavior: smooth;
+    font-family: $fonte-principal;
+}
+
+
