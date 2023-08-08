@@ -20,11 +20,16 @@
         z-index: 100;
         background-color: $cor-principal;
 
-        .container h1 {
+
+
+        #inicio {
             font-size: $grande;
             color: $preto;
             text-decoration: none;
             font-weight: 600;
+            &:hover {
+                background-color: $cor-principal;
+            }
         }
 
         .menu-spacer {

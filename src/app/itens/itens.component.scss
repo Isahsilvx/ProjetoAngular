@@ -1,0 +1,123 @@
+@import "../app.component.scss";
+
+* {
+    font-family: $fonte-principal;
+}
+
+
+.home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    background-color: $vinho-escuro;
+}
+ 
+
+.home-content {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.384);
+    opacity: 0.9;
+    text-align: center;
+}
+
+.img {
+    text-align: right;
+    width: 50%;
+}
+
+.home-content h1 {
+    font-family: $fonte-principal;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-text-stroke: 1px $branco;
+    color: $preto;
+}
+
+.home-content span {
+    -webkit-text-stroke: 2px $preto;
+    color: $cor-secundaria;
+}
+
+
+.text-animate h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    height: 45px;
+    color: transparent;
+    padding: 20px 0 20px;
+    -webkit-text-stroke: 3px $vinho-medio;
+    background-repeat: no-repeat;
+    font-family: $fonte-principal;
+    text-align: center;
+}
+
+.home-content article {
+    font-size: 20px;
+    margin: 20px 50px 40px 50px;
+    padding: 30px 0 20px;
+    color:$branco;
+}
+
+#imoveis-favoritos {
+    background-color: rgba(95, 14, 11, 0.767);
+}
+
+h2 {
+    font-family: $fonte-principal;
+    font-size: $grande;
+    color: $cor-principal;
+}  
+
+mat-grid-tile {
+    mat-card {
+        background-color: $branco;
+        margin: 10px;
+        box-shadow: $card-shadow;
+        transition: $card-transition;
+        &:hover {
+            box-shadow: $card-shadow-hover;
+        }
+        img {
+            width: 100%;
+        }
+        mat-card-content {
+            h3 {
+                font-family: $fonte-principal;
+                font-size: $grande;
+                color: $preto;
+                padding-top: 15px;
+            }
+            ul {
+                padding-top: 0px;
+                padding-left: 0px;
+                padding-bottom: 20px;
+                list-style-type: none;
+                li {
+                    font-family: $fonte-secundaria;
+                    color: $cor-principal;
+                    font-size: $media;
+                    line-height: $grande;
+                }
+            }
+        }
+        mat-card-actions {
+            padding-bottom: 20px;
+            button {
+                display: block;
+                width: 100%;
+                height: 48px;
+                cursor: pointer;
+                border: none;
+                border-radius: 4px;
+                background-color: $cor-secundaria;
+                color: $branco;
+                font-family: $fonte-secundaria;
+                font-size: $media;
+
+            }
+        }
+    }
+}
+

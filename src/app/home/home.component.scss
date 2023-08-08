@@ -7,7 +7,7 @@
 
 .home {
     height: 90vh;
-    // background: url(../../assets/img1.jpg) no-repeat;
+    background: url(../../assets/img1.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     display: flex;
@@ -18,6 +18,9 @@
 
 .home-content {
     max-width: 600px;
+    background-color: rgba(247, 247, 247, 0.473);
+    opacity: 0.9;
+    border-radius: 19px;
 }
 
 .home-content h1 {
@@ -27,6 +30,7 @@
     line-height: 1.2;
     -webkit-text-stroke: 2px $cor-secundaria;
     color: $preto;
+    text-align: center;
 }
 
 .home-content span {
@@ -40,14 +44,15 @@
     height: 45px;
     color: transparent;
     padding: 20px 0 20px;
-    -webkit-text-stroke: 3px $vinho-medio;
+    -webkit-text-stroke: 3px $vinho-escuro;
     background-repeat: no-repeat;
     font-family: $fonte-principal;
+    text-align: center;
 }
 
-.home-content p {
-    font-size: 22px;
-    margin: 20px 0 40px;
+.home-content article {
+    font-size: 20px;
+    margin: 20px 50px 40px 50px;
     padding: 30px 0 20px;
     color:$preto;
 }
