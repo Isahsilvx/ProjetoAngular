@@ -25,7 +25,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   declarations: [
     AppComponent,
     QuemSomosComponent,
-    ContatoComponent,
     CabecalhoComponent,
     DetalhesComponent,
     RodapeComponent,

@@ -1,12 +1,18 @@
 @import "../app.component.scss";
 
+#inicio {
+    max-height: 380vh;
+    background-image: url(../../assets/fundo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
 
-.conteudo {
-    background-color: $cor-principal;
+.historia {
+    background-color: $vinho-claro;
     width: 35%;
     position: relative;
     top: 100px;
-    left: 50%; 
+    left: 50%;
     padding: 70px 6% 70px;
     box-sizing: border-box;
     border-radius: 20px;
@@ -14,10 +20,9 @@
     z-index: 1;
 }
 
-.conteudo h1 {
+.historia h1 {
     font-family: $fonte-principal;
     color: $branco;
-    text-align: start;
     text-align: center;
     margin-bottom: 50px;
     font-size: 40px;
@@ -25,19 +30,74 @@
     font-family: 'Playfair Display', sans-serif;
 }
 
-.conteudo p {
+.historia p {
     color: $branco;
     text-align: center;
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-#end {
-    right: 0;
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.699);
-    padding: 7.5%;
-    z-index: -1;
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cnt {
+    background-color: $vinho-medio;
+    margin: 60px;
+    width: 35%;
+    top: 100px;
+    left: 50%;
+    padding: 70px 6% 70px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: all 1s;
+    z-index: 1;
+}
+
+.cnt h1 {
+    font-family: $fonte-principal;
     color: $branco;
-    height: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-shadow: 0.3em 0.2em $preto;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.cnt p {
+    color: $branco;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.lugares {
+    background-color: $vinho-escuro;
+    width: 35%;
+    position: relative;
+    left: 50%;
+    padding: 70px 6% 70px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: all 1s;
+    z-index: 1;
+}
+
+.lugares h3 {
+    font-family: $fonte-principal;
+    color: $branco;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-shadow: 0.3em 0.2em $preto;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.lugares p {
+    color: $branco;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
 }

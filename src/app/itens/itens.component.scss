@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 
 .home-content {
     max-width: 600px;
@@ -60,17 +60,17 @@
     font-size: 20px;
     margin: 20px 50px 40px 50px;
     padding: 30px 0 20px;
-    color:$branco;
+    color: $branco;
 }
 
 #lista {
-    background-image: linear-gradient(to right,$cor-terceira,$cor-principal);
+    background-image: linear-gradient(to right, $preto, $cor-principal);
 }
 
 #cafes-favoritos {
-   background-image: linear-gradient(to right,black,$vinho-claro);
+    background-image: linear-gradient(to right, $preto, $vinho-medio);
 }
- 
+
 
 h2 {
     font-family: $fonte-principal;
@@ -88,7 +88,8 @@ h3 {
     text-align: center;
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.445);
-}  
+}
+
 
 mat-grid-tile {
     mat-card {
@@ -97,13 +98,16 @@ mat-grid-tile {
         box-shadow: $card-shadow;
         transition: $card-transition;
         width: 400px;
+
         &:hover {
             box-shadow: $card-shadow-hover;
         }
+
         img {
             width: 100%;
             height: 300px;
         }
+
         mat-card-content {
             h4 {
                 font-family: $fonte-principal;
@@ -113,13 +117,34 @@ mat-grid-tile {
                 height: 30px;
                 text-align: center;
             }
+
+            h5 {
+                font-family: $fonte-principal;
+                font-size: $grande;
+                color: $preto;
+                padding-top: 21px;
+                height: 30px;
+                text-align: center;
+            }
         }
+
         mat-card-actions {
-            padding-bottom: 40px;
-            padding-top: 25px;
+            padding-bottom: 20px;
+            gap: 10px;
+
+            .favorite {
+                width: 20%;
+                background-color: $branco;
+                border: 1px solid $cor-principal;
+            }
+
+            mat-icon {
+                color: $cor-principal;
+            }
+
             button {
                 display: block;
-                width: 100%;
+                width: 80%;
                 height: 48px;
                 cursor: pointer;
                 border: none;
@@ -130,7 +155,11 @@ mat-grid-tile {
                 font-size: $media;
 
             }
+
+            .favorite-checked {
+                width: 10%;
+                background-color: $cor-principal;
+            }
         }
     }
 }
-
