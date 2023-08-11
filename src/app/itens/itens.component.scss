@@ -10,7 +10,9 @@
     display: flex;
     align-items: center;
     padding: 0 5%;
-    background-color: $vinho-escuro;
+    background-image: url(../../assets/graos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
  
 
@@ -19,6 +21,7 @@
     background-color: rgba(0, 0, 0, 0.384);
     opacity: 0.9;
     text-align: center;
+    border-radius: 9px;
 }
 
 .img {
@@ -60,14 +63,31 @@
     color:$branco;
 }
 
-#imoveis-favoritos {
-    background-color: rgba(95, 14, 11, 0.767);
+#lista {
+    background-image: linear-gradient(to right,$cor-terceira,$cor-principal);
 }
+
+#cafes-favoritos {
+   background-image: linear-gradient(to right,black,$vinho-claro);
+}
+ 
 
 h2 {
     font-family: $fonte-principal;
     font-size: $grande;
-    color: $cor-principal;
+    color: $branco;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+h3 {
+    font-family: $fonte-principal;
+    font-size: $grande;
+    color: $branco;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.445);
 }  
 
 mat-grid-tile {
@@ -76,34 +96,27 @@ mat-grid-tile {
         margin: 10px;
         box-shadow: $card-shadow;
         transition: $card-transition;
+        width: 400px;
         &:hover {
             box-shadow: $card-shadow-hover;
         }
         img {
             width: 100%;
+            height: 300px;
         }
         mat-card-content {
-            h3 {
+            h4 {
                 font-family: $fonte-principal;
                 font-size: $grande;
                 color: $preto;
-                padding-top: 15px;
-            }
-            ul {
-                padding-top: 0px;
-                padding-left: 0px;
-                padding-bottom: 20px;
-                list-style-type: none;
-                li {
-                    font-family: $fonte-secundaria;
-                    color: $cor-principal;
-                    font-size: $media;
-                    line-height: $grande;
-                }
+                padding-top: 33px;
+                height: 30px;
+                text-align: center;
             }
         }
         mat-card-actions {
-            padding-bottom: 20px;
+            padding-bottom: 40px;
+            padding-top: 25px;
             button {
                 display: block;
                 width: 100%;
