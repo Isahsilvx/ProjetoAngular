@@ -26,18 +26,19 @@
 
                         <h4>{{ cafe.titulo }}</h4>
                         <h5>{{ cafe.preco |currency }}</h5>
+
                         <mat-card-actions>
                             <div class="example-button-container">
                                 <button [class]="cafe.favorito === false ? 'favorito' : 'favorito-checked'"
                                     [title]="cafe.favorito === false ? 'Adicionar aos favoritos' : 'Remover dos favoritos'"
                                     mat-button (click)="toogleFavorito(i)">
-                                    <mat-icon aria-hidden="false" aria-label="Favoritos" fontIcon="favorite">
+                                    <mat-icon aria-hidden="false" aria-label="Favorito" fontIcon="✧">
                                     </mat-icon>
 
                                 </button>
                             </div>
 
-                            <button mat-button (click)="verDetalhes(cafe.id)">Mais detalhes</button>
+                            <button mat-button (click)="verDetalhes(cafe.id)">Detalhes</button>
 
                         </mat-card-actions>
                     </mat-card-content>
@@ -59,13 +60,13 @@
                     <mat-card-content>
 
                         <h4>{{ cafe.titulo }}</h4>
-                        <h5>{{ cafe.preco |currency }}</h5>
+                        <h5>{{ cafe.preco | currency }}</h5>
                         <mat-card-actions>
                             <div class="example-button-container">
                                 <button [class]="cafe.favorito === false ? 'favorito' : 'favorito-checked'"
                                     [title]="cafe.favorito === false ? 'Adicionar aos favoritos' : 'Remover dos favoritos'"
                                     mat-button (click)="toogleFavorito(i)">
-                                    <mat-icon aria-label="Favoritos" fontIcon="favorite"></mat-icon>
+                                    <mat-icon aria-label="Favorito" fontIcon="✦"></mat-icon>
                                 </button>
 
                             </div>

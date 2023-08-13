@@ -1,1 +1,16 @@
-<p>rodape works!</p>
+<footer>
+    <div class="container">
+        <div class="copyright">
+            <p>{{ title }} | {{ copyright }} | {{ developer }}.</p>
+        </div>
+        <div class="social-links">
+            <ul>
+                <li *ngFor="let redeSocial of redesSociais">
+                    <a [href]="redeSocial.link" target="_blank">
+                        <img src="{{ redeSocial.icone }}" alt="{{ redeSocial.nome }}" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>

@@ -5,13 +5,14 @@
     background-image: url(../../assets/fundo2.jpg);
     background-attachment: fixed;
     background-size: cover;
+    padding-bottom: 80px;
 }
 
 .historia {
     background-color: $vinho-claro;
-    width: 35%;
+    width: 45%;
     position: relative;
-    top: 100px;
+    top: 50px;
     left: 50%;
     padding: 70px 6% 70px;
     box-sizing: border-box;
@@ -25,15 +26,15 @@
     color: $branco;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 48px;
     text-shadow: 0.3em 0.2em $preto;
     font-family: 'Playfair Display', sans-serif;
 }
 
 .historia p {
-    color: $branco;
+    color: $preto;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 
@@ -46,7 +47,7 @@
 .cnt {
     background-color: $vinho-medio;
     margin: 60px;
-    width: 35%;
+    width: 45%;
     top: 100px;
     left: 50%;
     padding: 70px 6% 70px;
@@ -61,21 +62,21 @@
     color: $branco;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 48px;
     text-shadow: 0.3em 0.2em $preto;
     font-family: 'Playfair Display', sans-serif;
 }
 
 .cnt p {
-    color: $branco;
+    color: $preto;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 
 .lugares {
-    background-color: $vinho-escuro;
-    width: 35%;
+    background-color: $cor-secundaria;
+    width: 45%;
     position: relative;
     left: 50%;
     padding: 70px 6% 70px;
@@ -90,14 +91,14 @@
     color: $branco;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 48px;
     text-shadow: 0.3em 0.2em $preto;
     font-family: 'Playfair Display', sans-serif;
 }
 
 .lugares p {
-    color: $branco;
+    color: $preto;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
 }

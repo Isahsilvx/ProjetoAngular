@@ -1,5 +1,12 @@
 @import "../app.component.scss";
 
+#fundo {
+    background-image: url(https://images7.alphacoders.com/509/thumb-1920-509786.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
 .conteudo-container {
     display: flex;
     width: 1140px;
@@ -7,41 +14,49 @@
 
     .informacoes-container {
         display: block;
+        // margin-top: 100px;
+        // max-width: 500px;
+        // background-color: rgba(0, 0, 0, 0.582);
+        // opacity: 0.9;
+        // border-radius: 9px;
+
         h1 {
             font-family: $fonte-principal;
-            color: $preto;
-            text-align: start;
-            width: 80%;
+            color: $branco;
+            text-align: center;
+            line-height: 70px;
             margin-bottom: 50px;
             margin-top: 80px;
-            font-size: 40px;
-            text-shadow: 0.3em 0.2em $cor-secundaria;
+            font-size: 60px;
+            text-shadow: 0.4em 0.3em $cor-terceira;
             font-family: 'Playfair Display', sans-serif;
         }
 
         p {
-            text-align: justify;
-            width: 80%;
-            font-size: 20px;
+            color: $branco;
+            text-align: center;
+            font-size: 18px;
             margin-top: 30px;
-            
         }
     }
 }
 
 
 .container {
-    width: 1140px;
+    width: 550px;
     min-height: calc(100vh - 226px);
     display: block;
     margin: auto;
 
     h1 {
         font-family: $fonte-principal;
-        font-size: $grande;
+        font-size: 50px;
         line-height: $extra-grande;
         padding-top: 20px;
-        color: $cor-principal;
+        margin-bottom: 60px;
+        color: $preto;
+        text-shadow: 0.3em 0.2em $cor-secundaria;
+        font-family: 'Playfair Display', sans-serif;
     }
 
     form {

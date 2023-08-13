@@ -36,7 +36,8 @@ export class ItensComponent {
       titulo: ' Café Lírio do Vale',
       foto: 'https://i.ibb.co/fMZ83wr/item3.jpg',
       preco: 12.90,
-      favorito: true
+      favorito: true,
+      descricao: 'Café aromatizado com leite e um toque de baunilha, acompanhada com uma linda decoração para enfeitar'
     },
     {
       id: "2",
@@ -77,21 +78,21 @@ export class ItensComponent {
       id: "7",
       titulo: 'Combo 1',
       foto: 'https://i.ibb.co/86dwPgN/acompanhamento6.jpg',
-      preco: 25.90,
+      preco: 29.90,
       favorito: true
     },
     {
       id: "8",
       titulo: 'Combo 2',
       foto: 'https://i.ibb.co/DbtksYB/acompanhamento3.jpg',
-      preco: 25.90,
+      preco: 23.90,
       favorito: true
     },
     {
       id: "9",
       titulo: 'Combo 3',
       foto: 'https://i.ibb.co/wBLL9bq/acompanhamento4.jpg',
-      preco: 25.90,
+      preco: 27.90,
       favorito: true
     }
   ]
