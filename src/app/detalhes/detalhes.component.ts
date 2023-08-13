@@ -36,7 +36,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/djC4T2v/item1.jpg',
       preco: 13.90,
       favorito: false,
-      descricao: 'Café delicioso com um sabor incrível de amora vermelha acompanhado de um toque de frutas vermelhas para melhorar o sabor'
+      descricao: 'Café delicioso com um sabor incrível de frutas vermelhas acompanhado de um toque de baunilha e leite para melhorar o sabor'
     },
     {
       id: 3,
