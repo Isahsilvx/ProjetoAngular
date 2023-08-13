@@ -111,7 +111,7 @@ mat-grid-tile {
                 font-size: $grande;
                 color: $preto;
                 padding-top: 33px;
-                height: 30px;
+                height: 40px;
                 text-align: center;
             }
 
@@ -120,13 +120,13 @@ mat-grid-tile {
                 font-size: $grande;
                 color: $preto;
                 padding-top: 21px;
-                height: 30px;
+                height: 50px;
                 text-align: center;
             }
         }
 
         mat-card-actions {
-            padding-bottom: 30px;
+            padding-bottom: 40px;
             gap: 7px;
 
             .favorite {

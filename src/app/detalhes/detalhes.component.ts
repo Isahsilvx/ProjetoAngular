@@ -36,7 +36,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/djC4T2v/item1.jpg',
       preco: 13.90,
       favorito: false,
-      descricao: 'Café delicioso com um sabor incrível de amora vermelha'
+      descricao: 'Café delicioso com um sabor incrível de amora vermelha acompanhado de um toque de frutas vermelhas para melhorar o sabor'
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/9Zzm0s4/item6.jpg',
       preco: 15.90,
       favorito: false,
-      descricao: 'Café com toque de elegância, perfeito para momentos especiais'
+      descricao: 'Café com toque de elegância, perfeito para momentos especiais acompanhado de café aromatizado com baunilha e cacau'
     },
     {
       id: 4,
@@ -52,7 +52,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/7jvq4cB/acompanhamento1.jpg',
       preco: 21.90,
       favorito: true,
-      descricao: 'Combinação irresistível de chocolate e frutas vermelhas'
+      descricao: ' Café com combinação irresistível de chocolate e laranja, acompanhado de uma torre de paquecas com calda de chocolate meio amargo'
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/MCzRzGB/acompanhamento5.jpg',
       preco: 19.90,
       favorito: true,
-      descricao: 'Café que aquece o coração com seu sabor e aroma apaixonantes'
+      descricao: 'Café que aquece o coração com baunilha e frutas vermelhas , acompanhado de bolachinas de canela com aroma apaixonante'
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/TWfgh0Q/acompahamento2.jpg',
       preco: 22.90,
       favorito: true,
-      descricao: 'Delicioso croissant feito com amor e carinho'
+      descricao: 'Café aromatizado com baunilha e caenla,acompahado de um delicioso croissant (sabor opcional) feito com carinho'
     },
     {
       id: 7,
@@ -76,7 +76,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/86dwPgN/acompanhamento6.jpg',
       preco: 29.90,
       favorito: true,
-      descricao: 'Combo completo para satisfazer seu paladar'
+      descricao: 'Combinação deliciosa com várias opções de café dentro de nossos Cardápios, acompanhada com uma Torta irresistível de Morango,Bolo de Fubá Cremoso e de brinde um pedaço de Torta Salgada (sabor opcional)'
     },
     {
       id: 8,
@@ -84,7 +84,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/DbtksYB/acompanhamento3.jpg',
       preco: 23.90,
       favorito: true,
-      descricao: 'Combinação perfeita de sabores em um combo delicioso'
+      descricao: 'Combinação perfeita de suco de Laranja acompanhada de uma xícara de Café aromatizado com Baunilha e Frutas Vermelhas, juntamente com uma Panqueca com Creme de Baunilha e Morango e um Brownie meio amargo'
     },
     {
       id: 9,
@@ -92,7 +92,7 @@ export class DetalhesComponent implements OnInit {
       foto: 'https://i.ibb.co/wBLL9bq/acompanhamento4.jpg',
       preco: 27.90,
       favorito: true,
-      descricao: 'Combo incrível para uma experiência única de degustação'
+      descricao: 'Combo incrível pra café da manhã rápido, um Café aromatido com baunilha e laranja acompanhado com uma torre de Panquecas e leva de brinde um copo de Café com Leite'
     }
   ]
 }

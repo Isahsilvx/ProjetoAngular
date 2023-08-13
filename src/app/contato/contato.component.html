@@ -1,50 +1,49 @@
 <div id="fundo">
-    <div class="conteudo-container">
-        <div class="informacoes-container">
-            <h1> Programa de Privilégios </h1>
-            <p>
-                Frequentar o Grão Imperial Cafeteria é fazer parte de um clube exclusivo onde a elegância rima com a
-                benevolência: a cultura, os prazeres da mesa, as noites festivas...
-            </p>
-            <p>
-                Ao aderir gratuitamente, poderá beneficiar de novos produtos, pré-ofertas, convites para noites de gala
-                ou
-                encontros literários, e ainda obter pequenas atenções para viver momentos privilegiados.
-            </p>
-        </div>
-
-        <div class="container">
-            <h1>Fale Conosco</h1>
-            <form (ngSubmit)="submitForm()">
-                <mat-form-field>
-                    <mat-label>Digite seu nome:</mat-label>
-                    <input matInput placeholder="Ex:Patrícia da Silva" [formControl]="nome" required />
-                    <mat-error *ngIf="nome.invalid">{{ getErrorMessage() }}</mat-error>
-                </mat-form-field>
-                <mat-form-field>
-                    <mat-label>Digite seu e-mail:</mat-label>
-                    <input matInput placeholder="Ex:email@gmail.com" [formControl]="email" required>
-                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
-                </mat-form-field>
-                <mat-form-field>
-                    <mat-label>Selecione um assunto</mat-label>
-                    <mat-select [formControl]="assunto">
-                        <mat-option value="informaçoes">Tenho interesse de visitar o café</mat-option>
-                        <mat-option value="suporte">Quero fazer uma reclamação</mat-option>
-                        <mat-option value="entregas">Quero receber via Delivery</mat-option>
-                        <mat-option value="rh">Quero trabalhar na Grão Imperial</mat-option>
-                    </mat-select>
-                </mat-form-field>
-                <mat-form-field>
-                    <mat-label>Digite sua mensagem</mat-label>
-                    <textarea matInput [formControl]="mensagem"></textarea>
-                    <mat-error *ngIf="mensagem.invalid">{{getErrorMessage()}}</mat-error>
-                </mat-form-field>
-                <button mat-button [disabled]="(nome.invalid || email.invalid || mensagem.invalid ? 'true' : '')"
-                    type="submit">
-                    Enviar
-                </button>
-            </form>
-        </div>
+    <div class="informacoes-container">
+        <h1> Programa de Privilégios </h1>
+        <p>
+            Frequentar o Grão Imperial Cafeteria é fazer parte de um clube exclusivo onde a elegância rima com a
+            benevolência: a cultura, os prazeres da mesa, as noites festivas...
+        </p>
+        <p>
+            Ao aderir gratuitamente, poderá beneficiar de novos produtos, pré-ofertas, convites para noites de gala
+            ou
+            encontros literários, e ainda obter pequenas atenções para viver momentos privilegiados.
+        </p>
     </div>
+
+    <div class="container">
+        <h1>Fale Conosco</h1>
+        <form (ngSubmit)="submitForm()">
+            <mat-form-field>
+                <mat-label>Digite seu nome:</mat-label>
+                <input matInput placeholder="Ex:Patrícia da Silva" [formControl]="nome" required />
+                <mat-error *ngIf="nome.invalid">{{ getErrorMessage() }}</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Digite seu e-mail:</mat-label>
+                <input matInput placeholder="Ex:email@gmail.com" [formControl]="email" required>
+                <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Selecione um assunto</mat-label>
+                <mat-select [formControl]="assunto">
+                    <mat-option value="informaçoes">Tenho interesse de visitar o café</mat-option>
+                    <mat-option value="suporte">Quero fazer uma reclamação</mat-option>
+                    <mat-option value="entregas">Quero receber via Delivery</mat-option>
+                    <mat-option value="rh">Quero trabalhar na Grão Imperial</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Digite sua mensagem</mat-label>
+                <textarea matInput [formControl]="mensagem"></textarea>
+                <mat-error *ngIf="mensagem.invalid">{{getErrorMessage()}}</mat-error>
+            </mat-form-field>
+            <button mat-button [disabled]="(nome.invalid || email.invalid || mensagem.invalid ? 'true' : '')"
+                type="submit">
+                Enviar
+            </button>
+        </form>
+    </div>
+
 </div>
